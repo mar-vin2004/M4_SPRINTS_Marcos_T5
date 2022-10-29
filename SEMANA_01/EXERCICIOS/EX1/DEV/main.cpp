@@ -15,7 +15,7 @@ float converteSensor(int medida, int min, int max){
 }
 
 
-/*
+
 // Descomente a função main abaixo para testar o exercício 1
 int main(){
   cout << "Teste Ex 1" << endl;
@@ -28,7 +28,7 @@ int main(){
 	cout << converteSensor(250,100,400) << endl;
   //valor esperado: 0.5
 }
-*\
+
 
 
 // ----------------------------------------------------------
@@ -41,16 +41,16 @@ int leComando(){
     int valor_selec;
     cin >> valor_selec;
     return valor_selec;
-  }
+}
 
-/*
+
 // Descomente a função main abaixo para testar o exercício 2
 int main(){
   cout << "Digite o Comando (0 ou 1):";
 	int cmd = leComando();
 	cout << "Comando Recebido: " << cmd << endl;
 }
-*/
+
 
 // ----------------------------------------------------------
 
@@ -69,7 +69,7 @@ int insereVetor(int elemento, int valorMax, int lastPos, int Vetor[]){
 }
 
 
-/*
+
 // Descomente a função main abaixo para testar o exercício 3
 int main(){
   int valorMax = 10;
@@ -120,7 +120,7 @@ int main(){
   cout << Numbers[8] << endl; // valor esperado: 1
   cout << Numbers[9] << endl; // valor esperado: 0
 }
-*/
+
 
 // ----------------------------------------------------------
 
@@ -157,7 +157,7 @@ int maiorDist(int Vetor[]){
   return dist_maior;
 }
 
-/*
+
 // Descomente a função main abaixo para testar o exercício 3
 int main(){
   //Considere que os valores sempre serão distintos
@@ -202,7 +202,7 @@ int main(){
   cout << maiorDist(posicoes4) << endl;
   //valor esperado: 55
 }
-*/
+
 
 // ----------------------------------------------------------
 
